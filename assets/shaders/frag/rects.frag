@@ -71,10 +71,11 @@ void main() {
         float circles=mod(offset-t, dis);
         m = 
         (smoothstep(circles-blur,circles,width)
-        -smoothstep(circles,circles+blur,width));
+        -smoothstep(circles,circles+blur,width))
+        *(sin(-uTime+(xy.x/xy.y)*30.0)*0.9+0.9);
     }
     if (uStateNum == 1 || uStateNum == 4 || uStateNum == 6) {
-        m = sin((xy.y*0.25+2.5+sin(xy.x*0.25+sin(xy.x*0.25)+(uTime*0.2))) )*0.4-s*0.2;
+        m = (sin((xy.y*0.25+2.5+sin(xy.x*0.25+sin(xy.x*0.25)+(uTime*0.2))) )*0.4-s*0.2);
     }
 
 
