@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <script type="importmap">{
+    "imports": {
+      "three": "https://threejs.org/build/three.module.js",
+      "three/addons/": "https://threejs.org/examples/jsm/"
+    }
+  }</script>
+
+
+
+</head>
+
+<body id="body">
+
+  <div class="canvasWrapper">
+    <canvas id="canvas" width="400" height="2000">
+      Ваш браузер не поддерживает элемент canvas
+    </canvas>
+
+    <div class="list-item" id="item-0">~</div>
+    <div class="list-item" id="item-1">T</div>
+    <div class="list-item" id="item-2"></div>
+    <div class="list-item" id="item-3">~</div>
+    <div class="list-item" id="item-4">T</div>
+    <div class="list-item" id="item-5">~</div>
+    <div class="list-item" id="item-6">T</div>
+
+
+    <div id="loading"></div>
+  </div>
+
+
+</body>
+
+<script type="module" src="dist/app.js"></script>
+
+</html>
