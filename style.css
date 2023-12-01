@@ -58,49 +58,52 @@ body {
   height: inherit;
 }
 /*
-#item-0 {
+#dot-1 {
   width: 204px; height: 204px;
 }
-#item-1 {
+#dot-2 {
   width: 434px; height: 434px;
 }
-#item-2 {
+#dot-3 {
   width: 462px; height: 1502px;
 }
-#item-3 {
+#dot-4 {
   width: 462px; height: 532px;
 }
-#item-4 {
+#dot-5 {
   width: 232px; height: 204px;
 }
-#item-5 {
+#dot-6 {
   width: 462px; height: 434px;
 }
-#item-6 {
+#dot-7 {
   width: 926px; height: 348px;
-}*/
+}
+*/
+/*
+(div.width / canvas.width) * 100 = %vw  
+*/
 
-
-#item-0 {
-  width: 102px; height: 102px;
+#dot-1 {
+  width: 14.236vw; height: 14.236vw;
 }
-#item-1 {
-  width: 217px; height: 217px;
+#dot-2 {
+  width: 30.2083vw; height: 30.2083vw;
 }
-#item-2 {
-  width: 231px; height: 751px;
+#dot-3 {
+  width: 30.27vw; height: 104.72vw;
 }
-#item-3 {
-  width: 231px; height: 266px;
+#dot-4 {
+  width: 30.27vw; height: 37.0138vw;
 }
-#item-4 {
-  width: 116px; height: 101px;
+#dot-5 {
+  width: 14.16vw; height: 14.16vw;
 }
-#item-5 {
-  width: 231px; height: 217px;
+#dot-6 {
+  width: 30.27vw; height: 30.27vw;
 }
-#item-6 {
-  width: 100%; height: 174px;
+#dot-7 {
+  width: 62.4305vw; height: 24.16vw;
 }
 
 
@@ -113,4 +116,11 @@ body {
   font-size: 16px;
   width: 100px;
   margin-top: 0.5em;
+}
+
+#theme {
+  background: red;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
